@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: stolon-sentinel
-        image: sorintlab/stolon:master-pg10
+        #image: sorintlab/stolon:master-pg10
+        image: candysmurfhub/wale-stolon:latest
         command:
           - "/bin/bash"
           - "-ec"
